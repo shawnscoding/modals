@@ -1,0 +1,291 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100%;
+  line-height: 1.1;
+  color: #000;
+  font-family: "Noto Sans KR", sans-serif, Apple Gothic;
+}
+
+:root {
+  --primary: #2f3b4e;
+  --primary-light: #4d6080;
+  --primary-dark: #212936;
+  --secondary-light: #e7f4fd;
+  --secondary: #3871cc;
+  --secondary-dark: #0d47a1;
+  --tertiary: #9c27b0;
+  --tertiary-light: #ce93d8;
+  --tertiary-dark: #7b1fa2;
+  --grey: #e0e0e0;
+  --grey-medium: #c7c7c7;
+  --grey-light: #eee;
+  --grey-dark: #a3a3a3;
+  --text-primary: #2f3b4e;
+  --text-secondary: #212936;
+  --text-white: #fff;
+  --text-black: #000;
+  --text-disabled: #b3b3b3;
+  --primary-contrast: #fff;
+  --error: #f44336;
+  --warning: #ff9800;
+  --navbar-width: 225px;
+  --header-height: 55px;
+  --navbar-link-height: 40px;
+  --navbar-sublink-height: 32px;
+  --navbar-width--close: 60px;
+  --page-left-pl: 20px;
+  --main-header-height: 90px;
+  --action-collection-height: 81px;
+  --main-px: 20px;
+  --main-pr: 20px;
+  --dropdown-width: 220px;
+  --dropdown-height: 37px;
+  --modal-screen-bg: #00000029;
+  --text-field-br: #c4c4c4ad;
+  --text-field-br--focus: #3871ccad;
+  --modal-z-index: 10000;
+  --alert-z-index: 100000;
+  --popover-z-index: 10;
+  --header-z-index: 1000;
+  --navbar-z-index: 1000;
+  --main__col5: 1080px;
+  --main__col6: 1080px;
+  --main__col7: 1220px;
+  --main__col8: 1360px;
+  --main__col9: 1500px;
+  --main__col10: 1640px;
+  --main__col11: 1780px;
+  --main__col12: 1920px;
+  --main__col13: 2060px;
+  --main__col14: 2200px;
+  --main__col5--close: 1080px;
+  --main__col6--close: 1080px;
+  --main__col7--close: 1220px;
+  --main__col8--close: 1360px;
+  --main__col9--close: 1500px;
+  --main__col10--close: 1640px;
+  --main__col11--close: 1780px;
+  --main__col12--close: 1920px;
+  --main__col13--close: 2060px;
+  --main__col14--close: 2200px;
+}
+
+#root {
+  height: 100%;
+}
+
+* {
+  word-break: break-word;
+  font-size: 1.3rem;
+  font-family: "Noto Sans KR", sans-serif, Apple Gothic;
+}
+* {
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  resize: none;
+  outline: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+body,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+figure,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+a,
+textarea,
+input,
+select,
+option,
+button,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+abbr,
+acronym,
+img,
+button {
+  border: 0;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+}
+sup {
+  top: -1em;
+}
+sub {
+  bottom: -0.25em;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+figure {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+button,
+input,
+select,
+textarea {
+  border: 0 none;
+  outline: 0 none;
+  background-color: inherit;
+}
+textarea {
+  border: solid 1px #ccc;
+}
+table {
+  border-collapse: collapse;
+  empty-cells: show;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
