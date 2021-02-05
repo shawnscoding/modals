@@ -1,0 +1,76 @@
+@keyframes circle-indeteminate-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.circle-indeteminate {
+  width: 25px !important;
+  height: 25px !important;
+  animation: circle-indeteminate-rotate 0.9s linear infinite;
+  display: inline-block;
+}
+
+.circle-indeteminate__svg {
+  color: inherit;
+  width: 25px;
+  height: 25px;
+}
+
+.circle-indeteminate circle {
+  animation: MuiCircularProgress-keyframes-circular-dash 1.4s ease-in-out
+    infinite;
+  stroke-dasharray: 80px, 200px;
+  stroke-dashoffset: 0px;
+  stroke: currentColor;
+}
+
+@keyframes goLeft {
+  0% {
+    left: -30%;
+  }
+
+  50% {
+    left: 30%;
+  }
+
+  100% {
+    left: 90%;
+  }
+}
+
+.linear-indeterminate {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: var(--modal-z-index);
+  background-color: var(--tertiary-light);
+  height: 7px;
+}
+
+.linear-indeterminate__progress {
+  height: 7px;
+  width: 40%;
+  background-color: var(--tertiary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: goLeft 1.4s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
