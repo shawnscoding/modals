@@ -1,11 +1,11 @@
 import classNames from "classnames";
 import React from "react";
-import CircularProgressBar from "../progress/CircularProgressBar";
+import CircularProgressBar from "./progress/CircularProgressBar";
 import styles from "./styles.module.css";
 import commonStyles from "../commonStyles/common.module.css";
-import Radio from "../radio/Radio";
-import CloseIcon from "../icon/close";
-import GroupIcon from "../icon/group";
+import Radio from "./radio/Radio";
+import CloseIcon from "./icon/close";
+import GroupIcon from "./icon/group";
 
 const Modal = ({ onClose, _create }) => {
   const [form, setForm] = React.useState({

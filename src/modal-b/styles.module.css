@@ -18,6 +18,11 @@
   }
 }
 
+.divider {
+  border-bottom: 2px solid var(--grey);
+  margin-bottom: 21px;
+}
+
 .modal__screen-wrapper {
   width: 100vw;
   height: 100vh;
@@ -31,7 +36,12 @@
   background-color: var(--modal-screen-bg);
   animation: on-modal-open 225ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.form__grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
 .modal__wrapper {
   width: 500px;
   background-color: white;
@@ -52,13 +62,13 @@
 .modal__form {
   display: block;
   padding: 0 30px;
-  max-height: 500px;
+  max-height: 600px;
   overflow: auto;
 }
 
 .label {
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: var(--text-primary);
   font-weight: 600;
   margin-bottom: 9px;

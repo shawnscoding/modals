@@ -1,4 +1,4 @@
-import Login from "./login/modal/login";
+import Login from "./modal-b/Modal1";
 
 export default function App() {
   return (
