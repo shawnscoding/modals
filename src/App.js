@@ -1,11 +1,9 @@
-import Modal from "./modal-a/modal/Modal";
-import ModalB from "./modal-b/modal/Modal1";
+import Login from "./login/modal/login";
 
 export default function App() {
   return (
     <div className="App">
-      {/* <Modal /> */}
-      <ModalB />
+      <Login />
     </div>
   );
 }

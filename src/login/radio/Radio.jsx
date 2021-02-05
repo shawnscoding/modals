@@ -2,7 +2,7 @@ import classNames from "classnames";
 import React from "react";
 import styles from "./styles.module.css";
 
-const Radio = ({ name, checked, id, onChange }) => {
+const Radio = ({ name, checked, id, label, onChange }) => {
   return (
     <div className={classNames(styles["row"])}>
       <div className={classNames(styles["radio__container"])}>
@@ -20,14 +20,14 @@ const Radio = ({ name, checked, id, onChange }) => {
         <div className={classNames(styles["radio__animator"])} />
       </div>
       <label className={classNames(styles["radio__label"])} htmlFor={id}>
-        {id}
+        {label}
       </label>
     </div>
   );
 };
 
 Radio.defaultProps = {
-  checked: false
+  checked: false,
 };
 
 export default Radio;

@@ -21,10 +21,10 @@
 }
 
 .row {
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
-  margin-right: 15px;
+  margin-left: -10px;
 }
 
 .radio__container {

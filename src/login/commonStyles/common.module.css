@@ -36,7 +36,7 @@
 
 .text-btn--secondary--contained--medium {
   color: white;
-  background-color: #2c77f1;
+  background-color: var(--secondary);
   border-radius: 5px;
   height: 40px;
   padding: 10px 25px;
