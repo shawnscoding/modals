@@ -13,9 +13,9 @@ const Modal = ({ onClose, _create }) => {
     mobile_no: "",
     name: "",
     password: "",
-    access_type: "",
+    access_type: "E",
     is_paid_user: "",
-    country_type: "",
+    country_type: "1",
     role: "",
   });
 
@@ -140,7 +140,7 @@ const Modal = ({ onClose, _create }) => {
             <Radio
               onChange={onRadioChange}
               id="3"
-              checked={form.country_type === "2" ? true : false}
+              checked={form.country_type === "3" ? true : false}
               name="country_type"
               label="Type C"
             />

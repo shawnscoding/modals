@@ -39,6 +39,7 @@
   /* heart of the layout of this modal */
   position: relative;
   overflow: auto;
+  box-shadow: 0px 1px 8px #0000006e;
 }
 
 .modal__header {
